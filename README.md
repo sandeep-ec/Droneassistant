@@ -22,15 +22,19 @@ To get started with the Drone Assistance Project, follow these steps:
 2. Install the Gaia Node:
 
 Run the command below:
-
+```bash
 curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
-Update the config.json file to run with a small language model:
+```
 
+3. Update the config.json file to run with a small language model:
+```bash
 gaianet init --config https://raw.githubusercontent.com/harishkotra/Gaia-8G/refs/heads/main/config_8g.json
-Start the node:
+```
 
+4. Start the node:
+```bash
 gaianet start
-
+```
 
 ## How to Use
 1. Open your web browser and navigate to the provided local address.
