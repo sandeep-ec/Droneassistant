@@ -4,35 +4,33 @@
 The Drone Assistance Project is designed to provide efficient and reliable support for various drone operations, including surveillance, delivery, and environmental monitoring. This project aims to enhance drone functionality and user experience through advanced algorithms and user-friendly interfaces.
 
 ## Features
-- **Automated Flight Planning:** Generate optimized flight paths based on user-defined parameters.
-- **Real-time Data Streaming:** Stream live video and sensor data to a user interface.
-- **User-Friendly Interface:** Intuitive controls for easy operation and monitoring.
-- **Customizable Alerts:** Set notifications for specific events or parameters.
-- **Integration with Third-Party APIs:** Expand functionality by connecting with weather, mapping, and other services.
+- Automated Flight Planning: Generate optimized flight paths based on user-defined parameters.
+- Real-time Data Streaming: Stream live video and sensor data to a user interface.
+- User-Friendly Interface: Intuitive controls for easy operation and monitoring.
+- Customizable Alerts: Set notifications for specific events or parameters.
+- Integration with Third-Party APIs: Expand functionality by connecting with weather, mapping, and other services.
 
 ## Installation
 To get started with the Drone Assistance Project, follow these steps:
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/drone-assistance-project.git
-   cd drone-assistance-project
+   git clone https://github.com/sandeep-ec/droneassistant.git
+   cd droneassistant
    ```
 
-2. **Install Dependencies:**
-   Ensure you have the required dependencies installed. You can do this by running:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install the Gaia Node:
 
-3. **Set Up Configuration:**
-   Update the `config.json` file with your specific settings, including API keys and drone parameters.
+Run the command below:
 
-4. **Start the Application:**
-   Run the following command to launch the application:
-   ```bash
-   python main.py
-   ```
+curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
+Update the config.json file to run with a small language model:
+
+gaianet init --config https://raw.githubusercontent.com/harishkotra/Gaia-8G/refs/heads/main/config_8g.json
+Start the node:
+
+gaianet start
+
 
 ## How to Use
 1. Open your web browser and navigate to the provided local address.
