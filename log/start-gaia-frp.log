@@ -1,0 +1,14 @@
+[1;34m2024-09-25 17:19:23.145 [I] [sub/root.go:142] start frpc service for config file [/home/ero/gaianet/gaia-frp/frpc.toml]
+[0m[1;34m2024-09-25 17:19:23.145 [I] [client/service.go:294] try to connect to server...
+[0m[1;34m2024-09-25 17:19:24.066 [I] [client/service.go:286] [7f46e6caeccc681d] login to server success, get run id [7f46e6caeccc681d]
+[0m[1;34m2024-09-25 17:19:24.115 [I] [proxy/proxy_manager.go:173] [7f46e6caeccc681d] proxy added: [0x90a5ae65ea0081c477b51a754b37595903a3881b.us.gaianet.network]
+[0m[1;34m2024-09-25 17:19:24.406 [I] [client/control.go:170] [7f46e6caeccc681d] [0x90a5ae65ea0081c477b51a754b37595903a3881b.us.gaianet.network] start proxy success
+[0m[1;34m2024-09-25 17:47:32.081 [I] [client/service.go:294] [7f46e6caeccc681d] try to connect to server...
+[0m[1;34m2024-09-25 17:47:33.208 [I] [client/service.go:286] [7f46e6caeccc681d] login to server success, get run id [7f46e6caeccc681d]
+[0m[1;34m2024-09-25 17:47:33.212 [I] [proxy/proxy_manager.go:173] [7f46e6caeccc681d] proxy added: [0x90a5ae65ea0081c477b51a754b37595903a3881b.us.gaianet.network]
+[0m[1;34m2024-09-25 17:47:33.476 [I] [client/control.go:170] [7f46e6caeccc681d] [0x90a5ae65ea0081c477b51a754b37595903a3881b.us.gaianet.network] start proxy success
+[0m[1;34m2024-09-25 17:48:03.306 [I] [client/service.go:294] [7f46e6caeccc681d] try to connect to server...
+[0m[1;34m2024-09-25 17:48:04.924 [I] [client/service.go:286] [7f46e6caeccc681d] login to server success, get run id [7f46e6caeccc681d]
+[0m[1;34m2024-09-25 17:48:04.925 [I] [proxy/proxy_manager.go:173] [7f46e6caeccc681d] proxy added: [0x90a5ae65ea0081c477b51a754b37595903a3881b.us.gaianet.network]
+[0m[1;34m2024-09-25 17:48:05.260 [I] [client/control.go:170] [7f46e6caeccc681d] [0x90a5ae65ea0081c477b51a754b37595903a3881b.us.gaianet.network] start proxy success
+[0m
